@@ -38,6 +38,7 @@ function App() {
         />
         <button onClick={() => handleSearch(searchTerm)}>Search</button>
       </span>
+      <p>Definition:</p>
       <div>{result && <p>{result}</p>}</div>
     </>
   );
